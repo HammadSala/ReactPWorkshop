@@ -1,7 +1,7 @@
 {
   "workshops": [
     {
-      "name": "Angular JS Bootcamp",
+      "name": "Angular JS Bootcamp10",
       "category": "frontend",
       "id": 1,
       "description": "<p><strong>AngularJS</strong> (also written as <strong>Angular.js</strong>) is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications.</p><p>It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in rich Internet applications. (This flexibility has led to the acronym MVW, which stands for \"model-view-whatever\" and may also encompass model–view–presenter and model–view–adapter.)</p>",
@@ -18,25 +18,6 @@
         "online": false
       },
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/2000px-AngularJS_logo.svg.png"
-    },
-    {
-      "name": "React JS Masterclass",
-      "category": "frontend",
-      "id": 2,
-      "description": "<p><strong>React</strong> (also known as <strong>React.js</strong> or <strong>ReactJS</strong>) is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies.</p><p>React can be used as a base in the development of single-page or mobile applications. Complex React applications usually require the use of additional libraries for state management, routing, and interaction with an API.</p>",
-      "startDate": "2019-01-14T04:30:00.000Z",
-      "endDate": "2019-01-16T12:30:00.000Z",
-      "time": "10:00 am - 6:00 pm",
-      "location": {
-        "address": "Tata Elxsi, IT Park",
-        "city": "Trivandrum",
-        "state": "Kerala"
-      },
-      "modes": {
-        "inPerson": true,
-        "online": true
-      },
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"
     },
     {
       "name": "Crash course in MongoDB",
@@ -56,24 +37,6 @@
         "online": true
       },
       "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Mongo-db-logo.png"
-    },
-    {
-      "name": "Mastering Node JS and Express",
-      "description": "<p><strong>Node.js</strong> is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser. Typically, JavaScript is used primarily for client-side scripting, in which scripts written in JavaScript are embedded in a webpage's HTML and run client-side by a JavaScript engine in the user's web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting - running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a \"JavaScript everywhere\" paradigm, unifying web application development around a single programming language, rather than different languages for server side and client side scripts.</p><p>The Node.js distributed development project, governed by the Node.js Foundation, is facilitated by the Linux Foundation's Collaborative Projects program.</p>",
-      "startDate": "2019-10-20T07:00:00.000Z",
-      "endDate": "2019-20-22T07:00:00.000Z",
-      "time": "9:45 am - 5:45 pm",
-      "location": {
-        "address": "Harman Connected Services\nITPL, Whitefield",
-        "city": "Bangalore",
-        "state": "Karnataka"
-      },
-      "modes": {
-        "inPerson": true
-      },
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1024px-Node.js_logo.svg.png",
-      "createdDate": "Dec 31, 2018",
-      "id": 4
     },
     {
       "name": "HTML and CSS",
@@ -237,16 +200,5 @@
       "id": 15
     }
   ],
-  "topics": [
-    {
-      "id": 1,
-      "name": "Routing in React",
-      "workshopId": 2
-    },
-    {
-      "id": 2,
-      "name": "Lazy loading in React",
-      "workshopId": 2
-    }
-  ]
+  "topics": []
 }
