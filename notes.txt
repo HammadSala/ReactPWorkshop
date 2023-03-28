@@ -1,0 +1,23 @@
+
+create work cntext-> workshops, delee, add, update, workshopBeingEdited, setWorkshopBeingEdited(function)
+    ->export usecontext(workcnotext)
+--App--
+usesatre variable [ workshopBeingEdited, setworkshopBeingEdited]
+
+
+create value object of context type
+
+value = { .. setWorkshopBeingEdited, workshopBeingEdited ..}
+pass the WorkshopContext.Provider and value on the parent component
+-----
+workshop list item.tsx
+------------
+impoer useWorkshops from context
+and import setWorkshopBeingEdited from useWorkshop
+
+when edit button is clicked call setWorkshopBeingEdited(workshp) and update the variable workshopBeingEdited in App.tsx using context AddEditWorkshop
+Now that since hte workshopBeingEdited is having values and we canuse to display value in forms for udate on the selected items
+--->
+in the addEdit.tsx
+import workshopBeingEdited from useWorkshop custom hooks
+--> defaultValue={workshopBeingEdited ? workshopBeingEdited.name : ''}
